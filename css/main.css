@@ -1,0 +1,88 @@
+body {
+	background-color: #eceff0;
+}
+
+body, 
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: #363639;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+/* Styles for list */
+.list {
+	background-color: #fff;
+	margin: 50px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+.list .header {
+	font-family: "Shadows Into Light Two", cursive;
+	margin: 0 0 10px 0;
+}
+
+/*  Styles for list items */
+
+.items {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.items .done-button:hover {
+	opacity: 1;
+}
+
+.items .item.done {
+	text-decoration: line-through;;
+}
+
+.items li,
+.item-add .input {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+}
+
+.input {
+	width: 100%;
+}
+
+.input:focus {
+	outline: none;
+}
+
+/* Done button styles */
+.done-button {
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: #363639;	
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/* Submit button styles */
+.submit {
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px; 
+	box-shadow: 3px 3px 0 #ddd;
+}
+
+.submit:focus {
+	outline: none;
+	box-shadow: 3px 3px 3px #ddd inset;
+}
